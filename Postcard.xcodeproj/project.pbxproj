@@ -13,6 +13,7 @@
 		4199A8971A51E1A3006B93CE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4199A8961A51E1A3006B93CE /* Images.xcassets */; };
 		4199A89A1A51E1A3006B93CE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4199A8981A51E1A3006B93CE /* LaunchScreen.xib */; };
 		4199A8A61A51E1A3006B93CE /* PostcardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4199A8A51A51E1A3006B93CE /* PostcardTests.swift */; };
+		4199A8B01A51EEDE006B93CE /* SagradaFamilia.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 4199A8AF1A51EEDE006B93CE /* SagradaFamilia.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		4199A89F1A51E1A3006B93CE /* PostcardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PostcardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4199A8A41A51E1A3006B93CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4199A8A51A51E1A3006B93CE /* PostcardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostcardTests.swift; sourceTree = "<group>"; };
+		4199A8AF1A51EEDE006B93CE /* SagradaFamilia.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = SagradaFamilia.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +92,7 @@
 		4199A88D1A51E1A3006B93CE /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				4199A8AF1A51EEDE006B93CE /* SagradaFamilia.jpeg */,
 				4199A88E1A51E1A3006B93CE /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -193,6 +196,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4199A8951A51E1A3006B93CE /* Main.storyboard in Resources */,
+				4199A8B01A51EEDE006B93CE /* SagradaFamilia.jpeg in Resources */,
 				4199A89A1A51E1A3006B93CE /* LaunchScreen.xib in Resources */,
 				4199A8971A51E1A3006B93CE /* Images.xcassets in Resources */,
 			);
