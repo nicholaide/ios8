@@ -73,13 +73,13 @@
                                     <rect key="frame" x="27" y="293" width="340" height="30"/>
                                 </variation>
                             </textField>
-                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xf7-sw-o1u">
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xf7-sw-o1u">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="27" y="92" width="340" height="21"/>
+                                    <rect key="frame" x="27" y="92" width="340" height="39"/>
                                 </variation>
                             </label>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" placeholder="Enter name" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="feI-lz-bp6">
@@ -128,6 +128,7 @@
                     <connections>
                         <outlet property="enterMessageTextField" destination="8BJ-M5-Azj" id="CBh-Bx-Sce"/>
                         <outlet property="enterNameTextField" destination="feI-lz-bp6" id="Fbk-8j-I5m"/>
+                        <outlet property="mailButton" destination="69M-0l-WZP" id="IL6-10-Zba"/>
                         <outlet property="messageLabel" destination="xf7-sw-o1u" id="XnH-AZ-POR"/>
                     </connections>
                 </viewController>
