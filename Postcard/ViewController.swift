@@ -28,7 +28,9 @@ class ViewController: UIViewController {
     @IBAction func sendMailButtonPressed(sender: UIButton) {
         messageLabel.hidden = false
         messageLabel.text = enterMessageTextField.text
-        enterMessageTextField.text=""
+        enterMessageTextField.text = ""
+        //make keyboard go away
+        enterMessageTextField.resignFirstResponder()
     }
 }
 
