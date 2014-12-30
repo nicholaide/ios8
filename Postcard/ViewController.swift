@@ -14,8 +14,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var enterNameTextField: UITextField!
     @IBOutlet weak var enterMessageTextField: UITextField!
     @IBOutlet weak var mailButton: UIButton!
-    
-    
+    @IBOutlet weak var nameLabel: UILabel!  //challenge
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -30,11 +29,16 @@ class ViewController: UIViewController {
 
     @IBAction func sendMailButtonPressed(sender: UIButton) {
         messageLabel.hidden = false
+        nameLabel.hidden = false //challenge
         messageLabel.text = enterMessageTextField.text
+        nameLabel.text = enterNameTextField.text //challenge
         messageLabel.textColor = UIColor.redColor()
+        nameLabel.textColor = UIColor.blueColor() //challenge
         enterMessageTextField.text = ""
+        enterNameTextField.text = "" //challenge
         //make the keyboard go away
         enterMessageTextField.resignFirstResponder()
+        enterNameTextField.resignFirstResponder()
         
         mailButton.setTitle("Mail Sent", forState: UIControlState.Normal)
     }
